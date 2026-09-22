@@ -1,0 +1,1 @@
+Place your final favicon.png in /assets if you want it to override the included SVG favicon.
