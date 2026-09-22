@@ -104,7 +104,7 @@ p{color:var(--muted);line-height:1.85;font-size:14px}
 .hero-nada span{display:block;width:2px;border-radius:99px;background:var(--gold);animation:nada 1.8s ease-in-out infinite alternate}
 .hero-nada span:nth-child(1){height:20px}.hero-nada span:nth-child(2){height:45px;animation-delay:-.2s}.hero-nada span:nth-child(3){height:70px;animation-delay:-.4s}.hero-nada span:nth-child(4){height:45px;animation-delay:-.6s}.hero-nada span:nth-child(5){height:20px;animation-delay:-.8s}
 @keyframes nada{to{transform:scaleY(.35)}}
-
+/*
 .sacred-triad{position:absolute;top:68px;left:4vw;right:4vw;display:grid;grid-template-columns:1fr 1fr 1fr;align-items:start;pointer-events:none;transition:transform .5s ease}
 .deity{position:relative;display:flex;flex-direction:column;align-items:center;min-width:0}
 .deity img{height:175px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 25px rgba(0,0,0,.35));transition:filter .5s,transform .6s}
@@ -115,7 +115,95 @@ p{color:var(--muted);line-height:1.85;font-size:14px}
 .deity-center small{margin-top:-12px}
 .deity-aura{position:absolute;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(246,212,119,.11),transparent 70%);top:10px}
 .missing-asset{opacity:0}
-.hero-copy{position:relative;z-index:5;max-width:900px;margin-top:130px}
+.hero-copy{position:relative;z-index:5;max-width:900px;margin-top:130px}*/
+/*new code starts*/
+/* =========================================================
+   HERO — SACRED TRIAD + TITLE SPACING FIX
+   ========================================================= */
+
+.sacred-triad{
+  position:absolute;
+  top:58px;
+  left:4vw;
+  right:4vw;
+  height:245px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  align-items:start;
+  pointer-events:none;
+  transition:transform .5s ease;
+  z-index:3;
+}
+
+.deity{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  min-width:0;
+}
+
+.deity img{
+  height:150px;
+  width:auto;
+  object-fit:contain;
+  filter:drop-shadow(0 12px 25px rgba(0,0,0,.35));
+  transition:filter .5s,transform .6s;
+}
+
+.deity-center img{
+  height:185px;
+}
+
+.deity-left{
+  align-items:flex-start;
+}
+
+.deity-right{
+  align-items:flex-end;
+}
+
+.deity:hover img{
+  filter:drop-shadow(0 18px 35px rgba(246,212,119,.22));
+}
+
+.deity small{
+  font-size:7px;
+  letter-spacing:1.5px;
+  color:rgba(255,244,216,.42);
+  margin-top:4px;
+  white-space:nowrap;
+}
+
+.deity-center small{
+  margin-top:2px;
+}
+
+.deity-aura{
+  position:absolute;
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  background:radial-gradient(
+    circle,
+    rgba(246,212,119,.11),
+    transparent 70%
+  );
+  top:10px;
+}
+
+.missing-asset{
+  opacity:0;
+}
+
+/* Keep the Anahata title completely below the sacred imagery */
+.hero-copy{
+  position:relative;
+  z-index:5;
+  max-width:900px;
+  margin-top:215px;
+}
+/*ends*/
 .hero-copy h1{font-size:clamp(60px,9vw,120px);line-height:.83;letter-spacing:-4px;margin:20px 0}
 .hero-copy h1 span{font-size:.74em}
 .hero-lede{font-size:11px;letter-spacing:3px;color:var(--gold);text-transform:uppercase}
