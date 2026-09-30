@@ -1,29 +1,36 @@
-ANAHATA MUSIC ACADEMY — WEBSITE V1
+ANAHATA MUSIC ACADEMY — CERTIFICATE SEARCH PAGE
+=================================================
 
-This is the first coded foundation of the Anahata website.
+Files
+-----
+certificates.html  The search page
+certificates.js    The list of names and their PDF paths
 
-IMPORTANT SACRED IMAGE RULE:
-Place the final, user-approved PNG assets in:
-  assets/deities/Ganesha.png
-  assets/deities/Lalitha.png
-  assets/deities/Guru.png
+Install on your existing GitHub Pages website
+----------------------------------------------
+1. Upload certificates.html and certificates.js to the same folder as your
+   existing index.html (usually the repository root).
+2. Create this folder in your repository:
+   assets/certificates/
+3. Upload each student's PDF into that folder, using the matching filename:
+   01.pdf for the first name, 02.pdf for the second, ... 30.pdf for the 30th.
+   Keep the filenames and paths in certificates.js in sync with the PDFs.
+4. Open certificates.html in your browser to test it.
+5. Commit and push the files to GitHub. Your page will be available at:
+   https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/certificates.html
+   (For a custom domain, use your domain followed by /certificates.html.)
 
-The website code does NOT regenerate, recolor, distort, or edit these images.
-They are displayed as supplied.
+Add more students
+-----------------
+Open certificates.js and add another record inside CERTIFICATES:
+  { name: "Student Name", pdf: "assets/certificates/31.pdf" }
 
-FAVICON:
-If you already have your final favicon.png, place it in:
-  assets/favicon.png
-
-YOUTUBE:
-Replace YOUR_YOUTUBE_URL in script.js with your channel URL when ready.
-
-INSTAGRAM:
-@ishaansaripalli
-https://www.instagram.com/ishaansaripalli/
-
-Music:
-@ishaan_vocals
-https://www.instagram.com/ishaan_vocals/
-
-Open index.html to preview the site.
+Important
+---------
+- The page is static and does not need a server or database.
+- The included names are the 30 names currently provided. Check spelling and
+  confirm that each student is comfortable with their certificate being
+  available through a public website before publishing.
+- Anyone who knows a PDF's direct URL may be able to open it. A name search
+  is not a privacy or access-control system.
+- The PDF files are not included in this ZIP; add your own certificate PDFs.
