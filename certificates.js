@@ -24,7 +24,7 @@ const CERTIFICATES = [
   { name: "Niharika Kapalavayi garu", pdf: "assets/certificates/Niharika-Kapalavayi.pdf" },
   { name: "N Padmavati garu", pdf: "assets/certificates/N-Padmavati.pdf" },
   { name: "Devarasetty Lakshmi garu", pdf: "assets/certificates/Devarasetty-Lakshmi.pdf" },
-  { name: "Kattamuru Ammu garu", pdf: "assets/certificates/Katumuru-Ammu.pdf" },
+  { name: "Katumuru Ammu garu", pdf: "assets/certificates/Katumuru-Ammu.pdf" },
   { name: "K Parvathi garu", pdf: "assets/certificates/K-Parvathi.pdf" },
   { name: "Grandhi Lakshmi garu", pdf: "assets/certificates/Grandhi-Lakshmi.pdf" },
   { name: "Kolla Karuna garu", pdf: "assets/certificates/Kolla-Karuna.pdf" },
