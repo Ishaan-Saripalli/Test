@@ -34,7 +34,8 @@ const CERTIFICATES = [
   { name: "Sridevi Potamsetti garu", pdf: "assets/certificates/Sridevi-Potamsetti.pdf" },
   { name: "Syamala Chilukuri garu", pdf: "assets/certificates/Syamala-Chilukuri.pdf" },
   { name: "Pisipati Annapurna Rajeswari garu", pdf: "assets/certificates/Pisipati-Annapurna-Rajeswari.pdf" },
-  { name: "V Umalakshmi garu", pdf: "assets/certificates/V-Umalakshmi.pdf" }
+  { name: "V Umalakshmi garu", pdf: "assets/certificates/V-Umalakshmi.pdf" },
+  {name: "Kolla Manju garu", pdf: "assets/certificates/Kolla-Manju.pdf" }
 ];
 
 const searchInput = document.getElementById("nameSearch");
