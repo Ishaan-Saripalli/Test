@@ -272,6 +272,14 @@ function renderProgramme() {
             <div class="section-kicker">NEXT</div>
             <h3>Continuation course</h3>
             <p>Details will be updated once finalised.</p>
+          </div>
+          <div class="aside-card accent-card">
+            <div class="section-kicker">BATCH 1 • CERTIFICATES</div>
+            <h3>Course Certificates</h3>
+            <p>Find your name and access your Soundarya Lahari Batch 1 certificate.</p>
+            <a class="btn btn-outline" href="certificates.html">
+              View &amp; Download Certificates ↗
+            </a>
           </div>` : ""}
         ${id === "manasa" ? `
           <div class="aside-card accent-card">
