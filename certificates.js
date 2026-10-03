@@ -38,6 +38,7 @@ const CERTIFICATES = [
   {name: "Kolla Manju garu", pdf: "assets/certificates/Kolla-Manju.pdf" },
   {name: "Chakka Kanaka Lakshmi garu", pdf: "assets/certificates/Chakka-Kanaka-Lakshmi.pdf" },
   {name: "RVSL Kumari garu", pdf: "assets/certificates/RVSL-Kumari.pdf"},
+  {name: "PV-Ratnasri garu", pdf: "assets/certificates/PV-Ratnasri.pdf"},
 ];
 
 const searchInput = document.getElementById("nameSearch");
